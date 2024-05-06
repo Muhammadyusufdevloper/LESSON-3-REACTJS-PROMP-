@@ -1,0 +1,88 @@
+.header{
+    padding: 30px 0;
+    position:sticky;
+    z-index: 2000;
+    background-color: white;
+    top: 0;
+    left: 0;
+    &__navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    &__left__boxes{
+        display: flex;
+        align-items: center;
+        gap: 60px;
+    }
+    &__left__list{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    &__left__link{
+        font-size: 14px;
+        padding: 8px;
+        background-color: transparent;
+        color: black;
+        border-radius: 20px;
+        transition: all .5s ease;
+        &:hover{
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+        }
+    }
+    &__right__link{
+        font-size: 14px;
+        background-color: transparent;
+        padding: 8px;
+        color: black;
+        border-radius: 20px;
+        transition: all .5s ease;
+        &:hover{
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+        }
+    }
+    &__right__boxes{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+    &__right__list{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    &__right__btns{
+        display: flex;
+        align-items: center;
+    }
+    &__right__btn{
+        border: none;
+        background: transparent;
+        padding: 8px;
+        &__icon{
+            width: 24px;
+            height: 24px;
+        }
+    }
+}
+
+@media (max-width:1392px){
+    .header{
+        &__right__list{
+            display: none;
+        }
+    }
+}
+@media (max-width:1100px){
+    .header{
+        &__left__list{
+            display: none;
+        }
+    }
+}
