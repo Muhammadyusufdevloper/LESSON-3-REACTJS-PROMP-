@@ -1,7 +1,7 @@
 import s24 from"../assets/image/s24.avif"
 import TvSet from"../assets/image/TVset.avif"
 import HomeAppliances from"../assets/image/uch.avif"
-import Sustainability from"../assets/image/to'rt.jpg"
+import Sustainability from"../assets/image/BeautifulPlanet.jpg"
 
 
 
